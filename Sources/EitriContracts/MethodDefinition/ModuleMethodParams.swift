@@ -14,6 +14,9 @@ public struct ModuleMethodParams {
     
     /// Current host UIViewController where the caller eitri-app resides
     public var currentViewController: UIViewController
+    
+    /// Current host UINavigationController where the caller eitri-app resides
+    public var currentNavController: UINavigationController? = nil
 
     /// Creates a new parameter payload.
     /// - Parameters:
@@ -22,11 +25,13 @@ public struct ModuleMethodParams {
     public init(
         data: [String: Any?],
         invokingMethod: EitriAppInvokingMethod,
-        currentViewController: UIViewController
+        currentViewController: UIViewController,
+        currentNavController: UINavigationController?
     ) {
         self.data = data
         self.invokingMethod = invokingMethod
         self.currentViewController = currentViewController
+        self.currentNavController = currentNavController
     }
 
 }
