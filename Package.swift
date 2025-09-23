@@ -2,23 +2,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "EitriIOSContracts",
+    name: "EitriContracts",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "EitriIOSContracts",
-            targets: ["EitriIOSContracts"]
+            name: "EitriContracts",
+            targets: ["EitriContracts"]
         )
     ],
     targets: [
         .target(
-            name: "EitriIOSContracts"
+            name: "EitriContracts"
         ),
         .testTarget(
-            name: "EitriIOSContractsTests",
-            dependencies: ["EitriIOSContracts"]
+            name: "EitriContractsTests",
+            dependencies: ["EitriContracts"]
         )
     ]
 )
