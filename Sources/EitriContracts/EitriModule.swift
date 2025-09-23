@@ -7,5 +7,5 @@
 ///   and an opportunity to expose callable methods.
 public protocol EitriModule {
     /// Called by the Eitri SDK to initialise the module and register exposed methods.
-    func start(contextProvider: EitriContextProvider)
+    func start(contextProvider: EitriContextProvider) throws
 }

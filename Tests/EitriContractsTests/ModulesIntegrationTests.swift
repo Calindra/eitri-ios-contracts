@@ -46,10 +46,10 @@ final class ModulesIntegrationTests: XCTestCase {
         }
 
 
-        func start(contextProvider: EitriContextProvider) {
+        func start(contextProvider: EitriContextProvider) throws {
             XCTAssertNotNil(contextProvider.context())
             
-            contextProvider.exposeMethod(named: "sum") { params in
+            try contextProvider.exposeMethod(named: "sum") { params in
                 
                 XCTAssertNotNil(params)
                 XCTAssertNotNil(params.data)
@@ -98,7 +98,7 @@ final class ModulesIntegrationTests: XCTestCase {
         func register(module: EitriModule, namespace: String) {
             let provider = StubContextProvider(context: appContext)
             providers[namespace] = provider
-            module.start(contextProvider: provider)
+            try? module.start(contextProvider: provider)
         }
 
         func invoke(namespace: String, methodName: String, params: ModuleMethodParams) async throws -> Any? {

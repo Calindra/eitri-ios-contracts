@@ -7,5 +7,5 @@ public protocol EitriContextProvider {
     func context() -> AppContext
 
     /// Registers an exposed method that can be invoked from eitri-apps running on the host application.
-    func exposeMethod(named methodName: String, method: @escaping ModuleExposedMethod)
+    func exposeMethod(named methodName: String, method: @escaping ModuleExposedMethod) throws
 }
