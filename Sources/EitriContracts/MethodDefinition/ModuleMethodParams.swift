@@ -7,7 +7,7 @@ import UIKit
 public struct ModuleMethodParams {
     
     /// Arbitrary structured input payload for the invocation.
-    public let data: [String: Any]
+    public let data: [String: Any?]
 
     /// Metadata describing the method being executed and its contract version.
     public let invokingMethod: EitriAppInvokingMethod

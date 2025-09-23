@@ -33,5 +33,5 @@ modules. Modules should never retain the registry; use it only at initial regist
 
 ## Project structure
 
-- `Sources/EitriIOSContracts`: Protocols and value types that define the native contract surface.
-- `Tests/EitriIOSContractsTests`: Integration-style coverage that exercises a fake registry and module.
+- `Sources/EitriContracts`: Protocols and value types that define the native contract surface.
+- `Tests/EitriContractsTests`: Integration-style coverage that exercises a fake registry and module.
