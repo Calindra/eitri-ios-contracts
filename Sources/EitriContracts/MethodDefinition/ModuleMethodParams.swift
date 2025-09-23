@@ -20,7 +20,7 @@ public struct ModuleMethodParams {
     ///   - data: Arbitrary structured payload for the invocation.
     ///   - invokingMethod: Describes the calling eitri-app.
     public init(
-        data: [String: Any],
+        data: [String: Any?],
         invokingMethod: EitriAppInvokingMethod,
         currentViewController: UIViewController
     ) {
