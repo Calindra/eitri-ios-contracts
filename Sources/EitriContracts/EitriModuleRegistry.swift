@@ -4,5 +4,5 @@
 /// modules to the registry so that the SDK can manage their lifecycle and expose methods.
 public protocol EitriModuleRegistry {
     /// Registers a module instance under the provided namespace so that it can be started and invoked.
-    func register(module: EitriModule, namespace: String)
+    func register(module: EitriModule, namespace: String) throws
 }

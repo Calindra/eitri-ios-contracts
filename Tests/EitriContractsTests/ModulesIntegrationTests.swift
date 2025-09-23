@@ -14,7 +14,7 @@ final class ModulesIntegrationTests: XCTestCase {
         ))
         
         //register module
-        registry.register(module: MathModule(), namespace: "math")
+        try registry.register(module: MathModule(), namespace: "math")
 
         // invoke method
         let result = try await registry.invoke(
@@ -95,10 +95,10 @@ final class ModulesIntegrationTests: XCTestCase {
             self.appContext = context
         }
 
-        func register(module: EitriModule, namespace: String) {
+        func register(module: EitriModule, namespace: String) throws {
             let provider = StubContextProvider(context: appContext)
             providers[namespace] = provider
-            try? module.start(contextProvider: provider)
+            try module.start(contextProvider: provider)
         }
 
         func invoke(namespace: String, methodName: String, params: ModuleMethodParams) async throws -> Any? {
