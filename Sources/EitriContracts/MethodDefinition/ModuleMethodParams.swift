@@ -26,7 +26,7 @@ public struct ModuleMethodParams {
         data: [String: Any?],
         invokingMethod: EitriAppInvokingMethod,
         currentViewController: UIViewController,
-        currentNavController: UINavigationController?
+        currentNavController: UINavigationController? = nil
     ) {
         self.data = data
         self.invokingMethod = invokingMethod
