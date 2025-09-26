@@ -1,0 +1,1081 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "EitriContracts",
+    "printedName": "EitriContracts",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "EitriAppInvokingMethod",
+        "printedName": "EitriAppInvokingMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "slug",
+            "printedName": "slug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts0A17AppInvokingMethodV4slugSSvp",
+            "mangledName": "$s14EitriContracts0A17AppInvokingMethodV4slugSSvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts0A17AppInvokingMethodV4slugSSvg",
+                "mangledName": "$s14EitriContracts0A17AppInvokingMethodV4slugSSvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts0A17AppInvokingMethodV7versionSSvp",
+            "mangledName": "$s14EitriContracts0A17AppInvokingMethodV7versionSSvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts0A17AppInvokingMethodV7versionSSvg",
+                "mangledName": "$s14EitriContracts0A17AppInvokingMethodV7versionSSvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(slug:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EitriAppInvokingMethod",
+                "printedName": "EitriContracts.EitriAppInvokingMethod",
+                "usr": "s:14EitriContracts0A17AppInvokingMethodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EitriContracts0A17AppInvokingMethodV4slug7versionACSS_SStcfc",
+            "mangledName": "$s14EitriContracts0A17AppInvokingMethodV4slug7versionACSS_SStcfc",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14EitriContracts0A17AppInvokingMethodV",
+        "mangledName": "$s14EitriContracts0A17AppInvokingMethodV",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EitriContracts"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModuleMethodParams",
+        "printedName": "ModuleMethodParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV4dataSDySSypSgGvp",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV4dataSDySSypSgGvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV4dataSDySSypSgGvg",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV4dataSDySSypSgGvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invokingMethod",
+            "printedName": "invokingMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EitriAppInvokingMethod",
+                "printedName": "EitriContracts.EitriAppInvokingMethod",
+                "usr": "s:14EitriContracts0A17AppInvokingMethodV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV08invokingD0AA0a11AppInvokingD0Vvp",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV08invokingD0AA0a11AppInvokingD0Vvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EitriAppInvokingMethod",
+                    "printedName": "EitriContracts.EitriAppInvokingMethod",
+                    "usr": "s:14EitriContracts0A17AppInvokingMethodV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV08invokingD0AA0a11AppInvokingD0Vvg",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV08invokingD0AA0a11AppInvokingD0Vvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentViewController",
+            "printedName": "currentViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0Cvp",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0Cvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0Cvg",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0Cvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0Cvs",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0Cvs",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0CvM",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV21currentViewControllerSo06UIViewH0CvM",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentNavController",
+            "printedName": "currentNavController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvp",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvg",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UINavigationController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvs",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvs",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvM",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV20currentNavControllerSo012UINavigationH0CSgvM",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:invokingMethod:currentViewController:currentNavController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleMethodParams",
+                "printedName": "EitriContracts.ModuleMethodParams",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriAppInvokingMethod",
+                "printedName": "EitriContracts.EitriAppInvokingMethod",
+                "usr": "s:14EitriContracts0A17AppInvokingMethodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV4data08invokingD021currentViewController0h3NavJ0ACSDySSypSgG_AA0a11AppInvokingD0VSo06UIViewJ0CSo012UINavigationJ0CSgtcfc",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV4data08invokingD021currentViewController0h3NavJ0ACSDySSypSgG_AA0a11AppInvokingD0VSo06UIViewJ0CSo012UINavigationJ0CSgtcfc",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14EitriContracts18ModuleMethodParamsV",
+        "mangledName": "$s14EitriContracts18ModuleMethodParamsV",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EitriContracts"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppContext",
+        "printedName": "AppContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts10AppContextV7versionSSvp",
+            "mangledName": "$s14EitriContracts10AppContextV7versionSSvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts10AppContextV7versionSSvg",
+                "mangledName": "$s14EitriContracts10AppContextV7versionSSvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugMode",
+            "printedName": "debugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts10AppContextV9debugModeSbvp",
+            "mangledName": "$s14EitriContracts10AppContextV9debugModeSbvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts10AppContextV9debugModeSbvg",
+                "mangledName": "$s14EitriContracts10AppContextV9debugModeSbvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundleIdentifier",
+            "printedName": "bundleIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts10AppContextV16bundleIdentifierSSvp",
+            "mangledName": "$s14EitriContracts10AppContextV16bundleIdentifierSSvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts10AppContextV16bundleIdentifierSSvg",
+                "mangledName": "$s14EitriContracts10AppContextV16bundleIdentifierSSvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(version:debugMode:bundleIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppContext",
+                "printedName": "EitriContracts.AppContext",
+                "usr": "s:14EitriContracts10AppContextV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EitriContracts10AppContextV7version9debugMode16bundleIdentifierACSS_SbSStcfc",
+            "mangledName": "$s14EitriContracts10AppContextV7version9debugMode16bundleIdentifierACSS_SbSStcfc",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14EitriContracts10AppContextV",
+        "mangledName": "$s14EitriContracts10AppContextV",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EitriContextProvider",
+        "printedName": "EitriContextProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "context",
+            "printedName": "context()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppContext",
+                "printedName": "EitriContracts.AppContext",
+                "usr": "s:14EitriContracts10AppContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A15ContextProviderP7contextAA03AppC0VyF",
+            "mangledName": "$s14EitriContracts0A15ContextProviderP7contextAA03AppC0VyF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriContextProvider>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriContextProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exposeMethod",
+            "printedName": "exposeMethod(named:method:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EitriContracts.ModuleMethodParams) async throws -> Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleMethodParams",
+                    "printedName": "EitriContracts.ModuleMethodParams",
+                    "usr": "s:14EitriContracts18ModuleMethodParamsV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A15ContextProviderP12exposeMethod5named6methodySS_ypSgAA06ModuleF6ParamsVYaKYCctKF",
+            "mangledName": "$s14EitriContracts0A15ContextProviderP12exposeMethod5named6methodySS_ypSgAA06ModuleF6ParamsVYaKYCctKF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriContextProvider>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriContextProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14EitriContracts0A15ContextProviderP",
+        "mangledName": "$s14EitriContracts0A15ContextProviderP",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EitriModule",
+        "printedName": "EitriModule",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(contextProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriContextProvider",
+                "printedName": "any EitriContracts.EitriContextProvider",
+                "usr": "s:14EitriContracts0A15ContextProviderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A6ModuleP5start15contextProvideryAA0a7ContextF0_p_tKF",
+            "mangledName": "$s14EitriContracts0A6ModuleP5start15contextProvideryAA0a7ContextF0_p_tKF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModule>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriModule>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14EitriContracts0A6ModuleP",
+        "mangledName": "$s14EitriContracts0A6ModuleP",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EitriModuleRegistry",
+        "printedName": "EitriModuleRegistry",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(module:namespace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriModule",
+                "printedName": "any EitriContracts.EitriModule",
+                "usr": "s:14EitriContracts0A6ModuleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A14ModuleRegistryP8register6module9namespaceyAA0aC0_p_SStKF",
+            "mangledName": "$s14EitriContracts0A14ModuleRegistryP8register6module9namespaceyAA0aC0_p_SStKF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModuleRegistry>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriModuleRegistry>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14EitriContracts0A14ModuleRegistryP",
+        "mangledName": "$s14EitriContracts0A14ModuleRegistryP",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/modules\/eitri-ios-contracts\/EitriContracts\/EitriContracts\/AppContext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 917,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/modules\/eitri-ios-contracts\/EitriContracts\/EitriContracts\/AppContext.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
