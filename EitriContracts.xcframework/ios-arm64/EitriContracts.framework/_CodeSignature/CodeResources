@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		7lRaFNJfqrImXZgbhPon2rEz8rM=
+		HSvSl6Ym0dUmDvR2Ix5xUc+IkBA=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		SSggnyjoG/f6zLIZ6NI7rxauqNI=
+		qe4BM3c/elRZH+KrjLu15UgMc0I=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ot0E4mfc4M33lsQwv70Qmjiyed4=
+		wL15/6tou0kgXCvesBbAMWhe7aE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHVhZeRr1MDBDwOCGI3S3Xyk1/0AbeJNjYVPki+s1fk=
+			m7SPEGguXP3+vQR2HAE9NLLEIpyFmloZy+dsEYv+ayY=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mSERKwGbFOGfBpVbyBLoUxaJtQ0gTNPsKg6Emh3SNFE=
+			i8UhIwcNrP7/xGjViKeu08/wnVUXSqdeAdDQoVVD62w=
 			</data>
 		</dict>
 	</dict>

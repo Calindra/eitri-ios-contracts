@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/calindra/Library/Developer/Xcode/DerivedData/EitriContracts-byjduxkevvrqakbtoqshekyqsvll/Build/Intermediates.noindex/ArchiveIntermediates/EitriContracts/InstallationBuildProductsLocation/Library/Frameworks/EitriContracts.framework/EitriContracts'
+binary-path:     '/Users/calindra/Library/Developer/Xcode/DerivedData/EitriContracts-aqrragaqlucyuicqogrpdaxxcrhi/Build/Intermediates.noindex/ArchiveIntermediates/EitriContracts/InstallationBuildProductsLocation/Library/Frameworks/EitriContracts.framework/EitriContracts'
 relocations:
   - { offset: 0x55FAC, size: 0x8, addend: 0x0, symName: _EitriContractsVersionString, symObjAddr: 0x0, symBinAddr: 0x35B0, symSize: 0x0 }
   - { offset: 0x55FE3, size: 0x8, addend: 0x0, symName: _EitriContractsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x35E8, symSize: 0x0 }
