@@ -3,9 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "EitriContracts",
-    platforms: [
-        .iOS(.v13)
-    ],
     products: [
         .library(
             name: "EitriContracts",
