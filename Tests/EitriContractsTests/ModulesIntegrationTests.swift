@@ -95,10 +95,15 @@ final class ModulesIntegrationTests: XCTestCase {
             self.appContext = context
         }
 
-        func register(module: EitriModule, namespace: String) throws {
+        func register(module: EitriModule, namespace: String?) throws {
+            let resolvedNamespace = namespace ?? module.namespace()
             let provider = StubContextProvider(context: appContext)
-            providers[namespace] = provider
+            providers[resolvedNamespace] = provider
             try module.start(contextProvider: provider)
+        }
+
+        func register(module: EitriModule) throws {
+            try register(module: module, namespace: nil)
         }
 
         func invoke(namespace: String, methodName: String, params: ModuleMethodParams) async throws -> Any? {

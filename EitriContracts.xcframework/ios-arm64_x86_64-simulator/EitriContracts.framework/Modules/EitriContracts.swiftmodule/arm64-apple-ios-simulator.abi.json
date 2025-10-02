@@ -1084,16 +1084,17 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF",
-            "mangledName": "$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF",
+            "usr": "s:14EitriContracts0A14ModuleRegistryP8register6moduleyAA0aC0_p_tKF",
+            "mangledName": "$s14EitriContracts0A14ModuleRegistryP8register6moduleyAA0aC0_p_tKF",
             "moduleName": "EitriContracts",
             "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModuleRegistry>",
             "sugared_genericSig": "<Self where Self : EitriContracts.EitriModuleRegistry>",
+            "protocolReq": true,
             "declAttributes": [
               "RawDocComment"
             ],
-            "isFromExtension": true,
             "throwing": true,
+            "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],

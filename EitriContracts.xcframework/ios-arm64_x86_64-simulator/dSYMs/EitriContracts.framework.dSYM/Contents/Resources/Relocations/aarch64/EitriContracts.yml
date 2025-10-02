@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/calindra/Library/Developer/Xcode/DerivedData/EitriContracts-byjduxkevvrqakbtoqshekyqsvll/Build/Intermediates.noindex/ArchiveIntermediates/EitriContracts/InstallationBuildProductsLocation/Library/Frameworks/EitriContracts.framework/EitriContracts'
 relocations:
-  - { offset: 0x54D0F, size: 0x8, addend: 0x0, symName: _EitriContractsVersionString, symObjAddr: 0x0, symBinAddr: 0x2530, symSize: 0x0 }
-  - { offset: 0x54D46, size: 0x8, addend: 0x0, symName: _EitriContractsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2568, symSize: 0x0 }
+  - { offset: 0x54D0F, size: 0x8, addend: 0x0, symName: _EitriContractsVersionString, symObjAddr: 0x0, symBinAddr: 0x2510, symSize: 0x0 }
+  - { offset: 0x54D46, size: 0x8, addend: 0x0, symName: _EitriContractsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2548, symSize: 0x0 }
   - { offset: 0x54D84, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A17AppInvokingMethodV4slugSSvg', symObjAddr: 0x0, symBinAddr: 0xE30, symSize: 0x2C }
   - { offset: 0x54DF0, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A17AppInvokingMethodVwCP', symObjAddr: 0x64, symBinAddr: 0xE94, symSize: 0x2C }
   - { offset: 0x54E04, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A17AppInvokingMethodVwxx', symObjAddr: 0x90, symBinAddr: 0xEC0, symSize: 0x28 }
@@ -47,6 +47,4 @@ relocations:
   - { offset: 0x55566, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts10AppContextV9debugModeSbvg', symObjAddr: 0x2C, symBinAddr: 0x140C, symSize: 0x8 }
   - { offset: 0x5557A, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts10AppContextV16bundleIdentifierSSvg', symObjAddr: 0x34, symBinAddr: 0x1414, symSize: 0x2C }
   - { offset: 0x55595, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts10AppContextV7version9debugMode16bundleIdentifierACSS_SbSStcfC', symObjAddr: 0x60, symBinAddr: 0x1440, symSize: 0x10 }
-  - { offset: 0x55662, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x1668, symSize: 0x28 }
-  - { offset: 0x5567A, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x1668, symSize: 0x28 }
 ...
