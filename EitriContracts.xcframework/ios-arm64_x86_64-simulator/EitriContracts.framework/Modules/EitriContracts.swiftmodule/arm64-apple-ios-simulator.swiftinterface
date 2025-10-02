@@ -34,8 +34,11 @@ public protocol EitriContextProvider {
   func exposeMethod(named methodName: Swift.String, method: @escaping EitriContracts.ModuleExposedMethod) throws
 }
 public protocol EitriModule {
+  func namespace() -> Swift.String
   func start(contextProvider: any EitriContracts.EitriContextProvider) throws
 }
 public protocol EitriModuleRegistry {
-  func register(module: any EitriContracts.EitriModule, namespace: Swift.String) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  func register(module: any EitriContracts.EitriModule, namespace: Swift.String?) throws
+  #endif
 }

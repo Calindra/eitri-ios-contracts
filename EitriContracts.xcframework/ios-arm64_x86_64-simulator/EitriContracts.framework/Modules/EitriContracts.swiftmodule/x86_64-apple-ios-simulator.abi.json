@@ -936,6 +936,31 @@
         "children": [
           {
             "kind": "Function",
+            "name": "namespace",
+            "printedName": "namespace()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A6ModuleP9namespaceSSyF",
+            "mangledName": "$s14EitriContracts0A6ModuleP9namespaceSSyF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModule>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriModule>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "start",
             "printedName": "start(contextProvider:)",
             "children": [
@@ -1014,14 +1039,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14EitriContracts0A14ModuleRegistryP8register6module9namespaceyAA0aC0_p_SStKF",
-            "mangledName": "$s14EitriContracts0A14ModuleRegistryP8register6module9namespaceyAA0aC0_p_SStKF",
+            "usr": "s:14EitriContracts0A14ModuleRegistryP8register6module9namespaceyAA0aC0_p_SSSgtKF",
+            "mangledName": "$s14EitriContracts0A14ModuleRegistryP8register6module9namespaceyAA0aC0_p_SSSgtKF",
             "moduleName": "EitriContracts",
             "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModuleRegistry>",
             "sugared_genericSig": "<Self where Self : EitriContracts.EitriModuleRegistry>",
