@@ -42,3 +42,6 @@ public protocol EitriModuleRegistry {
   func register(module: any EitriContracts.EitriModule, namespace: Swift.String?) throws
   #endif
 }
+extension EitriContracts.EitriModuleRegistry {
+  public func register(module: any EitriContracts.EitriModule) throws
+}

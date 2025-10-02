@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		CAgMPTKyZECIpARJoKHrVnzEHQY=
+		RAPQMjgO58IRb/+BMTpfe8vDOsU=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9I91zd8jNaRn/v0OkJG/q/r0sOE=
+		Jy43+ZAhK5riy+7kjFzjRPTR174=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Jk42o4iO7i/4OAe0/eGICVs5iYs=
+		RU1lf+bQvfJotJ4VqLYfqxuQLk0=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		sRVwSbHhYvDEQ6h8s2ND4kx/EMM=
+		af15h+n2F2DnglD0UQngfFzgdbA=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Jk42o4iO7i/4OAe0/eGICVs5iYs=
+		RU1lf+bQvfJotJ4VqLYfqxuQLk0=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		omQ90ZQ2ZKrSWS3sPmnBhpsGu0o=
+		xD0nm3rWOgq5NKc5i0YsCNcZTCk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGtzxN8rvwwhm9M+hJ1d8BKfzS+M0H33OSCDhT1UjiQ=
+			z0HX252xq3qkhU6OdgklQreoqWR/IwI+zcb+fndOocU=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taMubkQmPUT+pZd4uUuQ23FEqxTHPS604DYww9xEQOw=
+			c0JKXqyUB1rhJPtleZMzqKKvLCRKMj6LIwvIz9qCW24=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			53mZK9pYerr9p4QLvl6klSqc1boF25mS//BRgOehKSg=
+			EyimzRy1AINYhlOs9Wz+pNUelxKo3Gar2X2JI0jnO7A=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taMubkQmPUT+pZd4uUuQ23FEqxTHPS604DYww9xEQOw=
+			c0JKXqyUB1rhJPtleZMzqKKvLCRKMj6LIwvIz9qCW24=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uf6k42l0FWmaE8okyVtu68UtN5jV71PZdT2VV/HaJgU=
+			GUw5IpRJZGy+CibL1mrA59YQnp9XutE6S1C1VcJ4mTY=
 			</data>
 		</dict>
 	</dict>

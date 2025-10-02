@@ -1065,6 +1065,36 @@
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(module:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EitriModule",
+                "printedName": "any EitriContracts.EitriModule",
+                "usr": "s:14EitriContracts0A6ModuleP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF",
+            "mangledName": "$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModuleRegistry>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriModuleRegistry>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
