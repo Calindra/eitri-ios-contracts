@@ -41,5 +41,7 @@ public protocol EitriModuleRegistry {
   #if compiler(>=5.3) && $NonescapableTypes
   func register(module: any EitriContracts.EitriModule, namespace: Swift.String?) throws
   #endif
-  func register(module: any EitriContracts.EitriModule) throws
+}
+extension EitriContracts.EitriModuleRegistry {
+  public func register(module: any EitriContracts.EitriModule) throws
 }

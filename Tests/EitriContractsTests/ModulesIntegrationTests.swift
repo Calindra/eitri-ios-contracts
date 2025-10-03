@@ -102,10 +102,6 @@ final class ModulesIntegrationTests: XCTestCase {
             try module.start(contextProvider: provider)
         }
 
-        func register(module: EitriModule) throws {
-            try register(module: module, namespace: nil)
-        }
-
         func invoke(namespace: String, methodName: String, params: ModuleMethodParams) async throws -> Any? {
             guard let method = providers[namespace]?.methods[methodName] else {
                 throw InvocationError.methodNotFound(namespace: namespace, method: methodName)
