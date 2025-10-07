@@ -33,8 +33,14 @@ public protocol EitriContextProvider {
   func context() -> EitriContracts.AppContext
   func exposeMethod(named methodName: Swift.String, method: @escaping EitriContracts.ModuleExposedMethod) throws
 }
+public struct ModuleVersion {
+  public let semver: Swift.String
+  public let buildCode: Swift.Int
+  public init(semver: Swift.String, buildCode: Swift.Int)
+}
 public protocol EitriModule {
   func namespace() -> Swift.String
+  func version() -> EitriContracts.ModuleVersion
   func start(contextProvider: any EitriContracts.EitriContextProvider) throws
 }
 public protocol EitriModuleRegistry {

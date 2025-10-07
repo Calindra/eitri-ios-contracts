@@ -2,8 +2,8 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/calindra/Library/Developer/Xcode/DerivedData/EitriContracts-byjduxkevvrqakbtoqshekyqsvll/Build/Intermediates.noindex/ArchiveIntermediates/EitriContracts/InstallationBuildProductsLocation/Library/Frameworks/EitriContracts.framework/EitriContracts'
 relocations:
-  - { offset: 0x55FAC, size: 0x8, addend: 0x0, symName: _EitriContractsVersionString, symObjAddr: 0x0, symBinAddr: 0x35E0, symSize: 0x0 }
-  - { offset: 0x55FE3, size: 0x8, addend: 0x0, symName: _EitriContractsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x3618, symSize: 0x0 }
+  - { offset: 0x55FAC, size: 0x8, addend: 0x0, symName: _EitriContractsVersionString, symObjAddr: 0x0, symBinAddr: 0x37D0, symSize: 0x0 }
+  - { offset: 0x55FE3, size: 0x8, addend: 0x0, symName: _EitriContractsVersionNumber, symObjAddr: 0x38, symBinAddr: 0x3808, symSize: 0x0 }
   - { offset: 0x56021, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A17AppInvokingMethodV4slugSSvg', symObjAddr: 0x0, symBinAddr: 0xE80, symSize: 0x30 }
   - { offset: 0x5608D, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A17AppInvokingMethodVwCP', symObjAddr: 0x80, symBinAddr: 0xF00, symSize: 0x30 }
   - { offset: 0x560A1, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A17AppInvokingMethodVwxx', symObjAddr: 0xB0, symBinAddr: 0xF30, symSize: 0x30 }
@@ -47,6 +47,15 @@ relocations:
   - { offset: 0x567FD, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts10AppContextV9debugModeSbvg', symObjAddr: 0x30, symBinAddr: 0x1520, symSize: 0x10 }
   - { offset: 0x56811, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts10AppContextV16bundleIdentifierSSvg', symObjAddr: 0x40, symBinAddr: 0x1530, symSize: 0x30 }
   - { offset: 0x5682C, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts10AppContextV7version9debugMode16bundleIdentifierACSS_SbSStcfC', symObjAddr: 0x70, symBinAddr: 0x1560, symSize: 0x20 }
-  - { offset: 0x568FA, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x17B0, symSize: 0x20 }
-  - { offset: 0x56912, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x17B0, symSize: 0x20 }
+  - { offset: 0x56966, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwxx', symObjAddr: 0x70, symBinAddr: 0x17D0, symSize: 0x10 }
+  - { offset: 0x5697A, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwca', symObjAddr: 0xB0, symBinAddr: 0x1810, symSize: 0x50 }
+  - { offset: 0x5698E, size: 0x8, addend: 0x0, symName: ___swift_memcpy24_8, symObjAddr: 0x100, symBinAddr: 0x1860, symSize: 0x20 }
+  - { offset: 0x569A2, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwta', symObjAddr: 0x120, symBinAddr: 0x1880, symSize: 0x40 }
+  - { offset: 0x569B6, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwet', symObjAddr: 0x160, symBinAddr: 0x18C0, symSize: 0x40 }
+  - { offset: 0x569CA, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwst', symObjAddr: 0x1A0, symBinAddr: 0x1900, symSize: 0x40 }
+  - { offset: 0x569DE, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVMa', symObjAddr: 0x1E0, symBinAddr: 0x1940, symSize: 0x10 }
+  - { offset: 0x56A0A, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionV9buildCodeSivg', symObjAddr: 0x30, symBinAddr: 0x1790, symSize: 0x10 }
+  - { offset: 0x56A25, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionV6semver9buildCodeACSS_SitcfC', symObjAddr: 0x40, symBinAddr: 0x17A0, symSize: 0x20 }
+  - { offset: 0x56ADF, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x19A0, symSize: 0x20 }
+  - { offset: 0x56AF7, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x19A0, symSize: 0x20 }
 ...

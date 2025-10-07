@@ -931,6 +931,160 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ModuleVersion",
+        "printedName": "ModuleVersion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "semver",
+            "printedName": "semver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts13ModuleVersionV6semverSSvp",
+            "mangledName": "$s14EitriContracts13ModuleVersionV6semverSSvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts13ModuleVersionV6semverSSvg",
+                "mangledName": "$s14EitriContracts13ModuleVersionV6semverSSvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buildCode",
+            "printedName": "buildCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts13ModuleVersionV9buildCodeSivp",
+            "mangledName": "$s14EitriContracts13ModuleVersionV9buildCodeSivp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts13ModuleVersionV9buildCodeSivg",
+                "mangledName": "$s14EitriContracts13ModuleVersionV9buildCodeSivg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(semver:buildCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleVersion",
+                "printedName": "EitriContracts.ModuleVersion",
+                "usr": "s:14EitriContracts13ModuleVersionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EitriContracts13ModuleVersionV6semver9buildCodeACSS_Sitcfc",
+            "mangledName": "$s14EitriContracts13ModuleVersionV6semver9buildCodeACSS_Sitcfc",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14EitriContracts13ModuleVersionV",
+        "mangledName": "$s14EitriContracts13ModuleVersionV",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "EitriModule",
         "printedName": "EitriModule",
         "children": [
@@ -949,6 +1103,31 @@
             "declKind": "Func",
             "usr": "s:14EitriContracts0A6ModuleP9namespaceSSyF",
             "mangledName": "$s14EitriContracts0A6ModuleP9namespaceSSyF",
+            "moduleName": "EitriContracts",
+            "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModule>",
+            "sugared_genericSig": "<Self where Self : EitriContracts.EitriModule>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "version",
+            "printedName": "version()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleVersion",
+                "printedName": "EitriContracts.ModuleVersion",
+                "usr": "s:14EitriContracts13ModuleVersionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts0A6ModuleP7versionAA0C7VersionVyF",
+            "mangledName": "$s14EitriContracts0A6ModuleP7versionAA0C7VersionVyF",
             "moduleName": "EitriContracts",
             "genericSig": "<τ_0_0 where τ_0_0 : EitriContracts.EitriModule>",
             "sugared_genericSig": "<Self where Self : EitriContracts.EitriModule>",
