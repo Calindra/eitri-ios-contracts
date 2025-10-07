@@ -35,8 +35,8 @@ public protocol EitriContextProvider {
 }
 public struct ModuleVersion {
   public let semver: Swift.String
-  public let buildCode: Swift.Int
-  public init(semver: Swift.String, buildCode: Swift.Int)
+  public let apiLevel: Swift.Int
+  public init(semver: Swift.String, apiLevel: Swift.Int)
 }
 public protocol EitriModule {
   func namespace() -> Swift.String

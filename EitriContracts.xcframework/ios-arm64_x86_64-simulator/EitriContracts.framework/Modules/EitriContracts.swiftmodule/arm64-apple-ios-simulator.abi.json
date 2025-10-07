@@ -981,8 +981,8 @@
           },
           {
             "kind": "Var",
-            "name": "buildCode",
-            "printedName": "buildCode",
+            "name": "apiLevel",
+            "printedName": "apiLevel",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -992,8 +992,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14EitriContracts13ModuleVersionV9buildCodeSivp",
-            "mangledName": "$s14EitriContracts13ModuleVersionV9buildCodeSivp",
+            "usr": "s:14EitriContracts13ModuleVersionV8apiLevelSivp",
+            "mangledName": "$s14EitriContracts13ModuleVersionV8apiLevelSivp",
             "moduleName": "EitriContracts",
             "declAttributes": [
               "HasStorage",
@@ -1016,8 +1016,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14EitriContracts13ModuleVersionV9buildCodeSivg",
-                "mangledName": "$s14EitriContracts13ModuleVersionV9buildCodeSivg",
+                "usr": "s:14EitriContracts13ModuleVersionV8apiLevelSivg",
+                "mangledName": "$s14EitriContracts13ModuleVersionV8apiLevelSivg",
                 "moduleName": "EitriContracts",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1027,7 +1027,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(semver:buildCode:)",
+            "printedName": "init(semver:apiLevel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1049,8 +1049,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14EitriContracts13ModuleVersionV6semver9buildCodeACSS_Sitcfc",
-            "mangledName": "$s14EitriContracts13ModuleVersionV6semver9buildCodeACSS_Sitcfc",
+            "usr": "s:14EitriContracts13ModuleVersionV6semver8apiLevelACSS_Sitcfc",
+            "mangledName": "$s14EitriContracts13ModuleVersionV6semver8apiLevelACSS_Sitcfc",
             "moduleName": "EitriContracts",
             "declAttributes": [
               "AccessControl"

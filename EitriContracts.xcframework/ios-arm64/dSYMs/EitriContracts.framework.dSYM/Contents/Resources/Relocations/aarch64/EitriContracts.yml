@@ -54,8 +54,8 @@ relocations:
   - { offset: 0x56787, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwet', symObjAddr: 0x124, symBinAddr: 0x4918, symSize: 0x48 }
   - { offset: 0x5679B, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVwst', symObjAddr: 0x16C, symBinAddr: 0x4960, symSize: 0x40 }
   - { offset: 0x567AF, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionVMa', symObjAddr: 0x1AC, symBinAddr: 0x49A0, symSize: 0x10 }
-  - { offset: 0x567DB, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionV9buildCodeSivg', symObjAddr: 0x2C, symBinAddr: 0x4820, symSize: 0x8 }
-  - { offset: 0x567F6, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionV6semver9buildCodeACSS_SitcfC', symObjAddr: 0x34, symBinAddr: 0x4828, symSize: 0xC }
+  - { offset: 0x567DB, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionV8apiLevelSivg', symObjAddr: 0x2C, symBinAddr: 0x4820, symSize: 0x8 }
+  - { offset: 0x567F6, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts13ModuleVersionV6semver8apiLevelACSS_SitcfC', symObjAddr: 0x34, symBinAddr: 0x4828, symSize: 0xC }
   - { offset: 0x568B0, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x49D4, symSize: 0x28 }
   - { offset: 0x568C8, size: 0x8, addend: 0x0, symName: '_$s14EitriContracts0A14ModuleRegistryPAAE8register6moduleyAA0aC0_p_tKF', symObjAddr: 0x0, symBinAddr: 0x49D4, symSize: 0x28 }
 ...

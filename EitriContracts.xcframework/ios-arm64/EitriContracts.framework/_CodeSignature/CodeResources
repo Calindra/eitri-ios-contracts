@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		MiP39nUsrtGvi9Ab8lYiLo4ciow=
+		C6SYzTylR+HN7Sd/SlTKt8bH6c4=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qsTu6Yk55qOIL1wcZMKKv9AV1tM=
+		+RjOlGis4HU7mqrv3EOAHJT4pKc=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2ysXF7pK3BrRZyJHnkb0pH12UKE=
+		UC4gaLYLoGreNapl7vHtKGHfaco=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		2F+5YB5kCIXiISftx2ZDWpu7xiE=
+		kjzorq1sUt3W/af18ZrMg9C9dWw=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2ysXF7pK3BrRZyJHnkb0pH12UKE=
+		UC4gaLYLoGreNapl7vHtKGHfaco=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RAfmSDHE3n8QA2CiUZOHTWJRqf4=
+		JyTPxkYG8voAO/jeIdrKmN6suOA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9bsOJAGfq5h241vfgdZ1vfgQyZVS7LoHY1zlB4mAXFM=
+			AN/E3aE8XCnKh7QyBU4gY/qTNMOuNPRkx4/3TTmUodA=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zCVxfn+jsP7OVnRavtFt9HyqjOHRl6suuKyUXd/uGPg=
+			rT3fvq+C3/w0VfiABsHyDGCC3LBN8nBiFxNWua9HzPw=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hd0WAjuv5dpaD8J7+CBSd45CJEJaJEUeB9ScMoZD6wg=
+			FHrldA3HSdAJle/xkCoMpBj2hagVVJyWR/tlNV/L1rA=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zCVxfn+jsP7OVnRavtFt9HyqjOHRl6suuKyUXd/uGPg=
+			rT3fvq+C3/w0VfiABsHyDGCC3LBN8nBiFxNWua9HzPw=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JZNIUoaRq7lTETvR6pCscsaQEpAR4d4gsuiYPl3TtC0=
+			sm6v7SgFLk1CqEBr7vadbvfPmcmBJEYy/I5NjocsDoM=
 			</data>
 		</dict>
 	</dict>
