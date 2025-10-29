@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		3HDZd3bUytVTK6iHoqjzYkmxkFM=
+		W1YhlXnQAULYFUxf5LP8dmJL8PI=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		fTW5zd2brg64OkUA6JD0QZ466HU=
+		tpyQIteGadPFabEcsSCTwuTO324=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zVfGYEssC/2RlImot18rfh9v6QM=
+		LiKou4cOEbq8aBHoNBE0PGjRaXc=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		t6K468z9YQE87Ha/lltbt6fihPo=
+		WThN4UAJNs74jKk6lTt7lZGwgdE=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zVfGYEssC/2RlImot18rfh9v6QM=
+		LiKou4cOEbq8aBHoNBE0PGjRaXc=
 		</data>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ET6Qk9Rg3PVTZreFv5PFY9kleuo=
+		lYn4FwwoktLHelcEbXei5eRWGQI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UTjXitCNewQsMhWvmA22ntBk4IYwXjASmdsn/YF2Pbc=
+			GfRjVyQbrNnReLD4/qXBpKKitkWP4YyNKtJoc77ORhs=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jG8Hz66/QYHJS1a18TRA7pCe4ad3YMmHKTfhoLpqjqc=
+			RmxZcLo5ouiDZvI5WWVajY/m7iGSapVWldiwP1hIcuA=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9ZbEsNXhlxqPERqOl7RaIMVevSnlF5H23+OOivjAj8=
+			qSNLYQc7UagtVQYS+KaO9OlbiSB/N7pCvZJHOS3zqvA=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jG8Hz66/QYHJS1a18TRA7pCe4ad3YMmHKTfhoLpqjqc=
+			RmxZcLo5ouiDZvI5WWVajY/m7iGSapVWldiwP1hIcuA=
 			</data>
 		</dict>
 		<key>Modules/EitriContracts.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sMrncCB7Ucvqtgluy6H+mdeezN52++OzPGUEkER/dNA=
+			FUM3P3At/79Bx9utFtgx/J20hMLWRGZJXjrbNuR7hJA=
 			</data>
 		</dict>
 	</dict>
