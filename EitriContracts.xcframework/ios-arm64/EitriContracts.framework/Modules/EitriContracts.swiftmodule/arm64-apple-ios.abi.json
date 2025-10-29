@@ -500,9 +500,54 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "eventBus",
+            "printedName": "eventBus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleMethodEventBus",
+                "printedName": "EitriContracts.ModuleMethodEventBus",
+                "usr": "s:14EitriContracts20ModuleMethodEventBusC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV8eventBusAA0cd5EventG0Cvp",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV8eventBusAA0cd5EventG0Cvp",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleMethodEventBus",
+                    "printedName": "EitriContracts.ModuleMethodEventBus",
+                    "usr": "s:14EitriContracts20ModuleMethodEventBusC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EitriContracts18ModuleMethodParamsV8eventBusAA0cd5EventG0Cvg",
+                "mangledName": "$s14EitriContracts18ModuleMethodParamsV8eventBusAA0cd5EventG0Cvg",
+                "moduleName": "EitriContracts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(data:invokingMethod:currentViewController:currentNavController:)",
+            "printedName": "init(data:invokingMethod:currentViewController:currentNavController:eventBus:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -563,11 +608,17 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleMethodEventBus",
+                "printedName": "EitriContracts.ModuleMethodEventBus",
+                "usr": "s:14EitriContracts20ModuleMethodEventBusC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14EitriContracts18ModuleMethodParamsV4data08invokingD021currentViewController0h3NavJ0ACSDySSypSgG_AA0a11AppInvokingD0VSo06UIViewJ0CSo012UINavigationJ0CSgtcfc",
-            "mangledName": "$s14EitriContracts18ModuleMethodParamsV4data08invokingD021currentViewController0h3NavJ0ACSDySSypSgG_AA0a11AppInvokingD0VSo06UIViewJ0CSo012UINavigationJ0CSgtcfc",
+            "usr": "s:14EitriContracts18ModuleMethodParamsV4data08invokingD021currentViewController0h3NavJ08eventBusACSDySSypSgG_AA0a11AppInvokingD0VSo06UIViewJ0CSo012UINavigationJ0CSgAA0cd5EventM0Ctcfc",
+            "mangledName": "$s14EitriContracts18ModuleMethodParamsV4data08invokingD021currentViewController0h3NavJ08eventBusACSDySSypSgG_AA0a11AppInvokingD0VSo06UIViewJ0CSo012UINavigationJ0CSgAA0cd5EventM0Ctcfc",
             "moduleName": "EitriContracts",
             "declAttributes": [
               "AccessControl",
@@ -584,6 +635,80 @@
           "AccessControl",
           "RawDocComment"
         ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModuleMethodEventBus",
+        "printedName": "ModuleMethodEventBus",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(channel:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EitriContracts20ModuleMethodEventBusC7publish7channel4dataySS_ypSgtKF",
+            "mangledName": "$s14EitriContracts20ModuleMethodEventBusC7publish7channel4dataySS_ypSgtKF",
+            "moduleName": "EitriContracts",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14EitriContracts20ModuleMethodEventBusC",
+        "mangledName": "$s14EitriContracts20ModuleMethodEventBusC",
+        "moduleName": "EitriContracts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -1306,14 +1431,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/modules\/eitri-ios-contracts\/EitriContracts\/EitriContracts\/AppContext.swift",
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/modules\/eitri-ios-contracts\/EitriContracts\/EitriContracts\/AppContext.swift",
       "kind": "BooleanLiteral",
       "offset": 917,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/43485700-49b3-571a-9085-76551f7e05dc\/build\/ios\/modules\/eitri-ios-contracts\/EitriContracts\/EitriContracts\/AppContext.swift",
+      "filePath": "\/Users\/calindra\/Desktop\/atlassian-bitbucket-pipelines-runner\/temp\/b0895d66-2c03-5dc0-93b7-79040f97a239\/build\/ios\/modules\/eitri-ios-contracts\/EitriContracts\/EitriContracts\/AppContext.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 2,

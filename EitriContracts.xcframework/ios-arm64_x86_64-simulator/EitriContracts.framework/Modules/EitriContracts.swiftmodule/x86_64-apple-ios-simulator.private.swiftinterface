@@ -19,9 +19,16 @@ public struct ModuleMethodParams {
   public let invokingMethod: EitriContracts.EitriAppInvokingMethod
   public var currentViewController: UIKit.UIViewController
   public var currentNavController: UIKit.UINavigationController?
+  public let eventBus: EitriContracts.ModuleMethodEventBus
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(data: [Swift.String : Any?], invokingMethod: EitriContracts.EitriAppInvokingMethod, currentViewController: UIKit.UIViewController, currentNavController: UIKit.UINavigationController? = nil)
+  public init(data: [Swift.String : Any?], invokingMethod: EitriContracts.EitriAppInvokingMethod, currentViewController: UIKit.UIViewController, currentNavController: UIKit.UINavigationController? = nil, eventBus: EitriContracts.ModuleMethodEventBus)
   #endif
+}
+@_hasMissingDesignatedInitializers public class ModuleMethodEventBus {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func publish(channel: Swift.String, data: Any? = nil) throws
+  #endif
+  @objc deinit
 }
 public struct AppContext {
   public let version: Swift.String
