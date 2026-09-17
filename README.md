@@ -7,7 +7,7 @@ capabilities, expose callable methods, and gain access to runtime context suppli
 ## Requirements
 - Swift 5.9 or later
 - Xcode 15 or later (for local development and testing)
-- iOS 13.0 minimum deployment target
+- iOS 15.0 minimum deployment target
 
 ## Core concepts
 
